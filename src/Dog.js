@@ -15,7 +15,7 @@ class Dog extends Component {
   render() {
     return (
       <div key={this.props.dog.id}>
-        {this.props.dog.name}
+        {this.props.dog.name} - {this.props.dog.breed}
         <button onClick={this.handleClick}>{this.state.counter}</button>
       </div>
     )
